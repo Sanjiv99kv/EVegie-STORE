@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!------------------- Title -------------------->
+    <title>eVegie store</title>
+    <!------------------- Stylesheet-------------------->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!------------------- icon-------------------->
+    <link rel="shortcut icon" href="fav-icon.png">
+    
+</head>
+
+<body>
+    <!------------- Navigation panel ----------------->
+    <nav class="Navigation">
+        <div class="nav">
+        <div class="nav-logo">
+        <i class="fa-solid fa-person-walking-luggage"></i>
+        </div>
+        <a href="#" class="logo"><span>e</span>Vegiee</a>
+        </div>
+    <!------ menu btn ------->
+
+    <input type="checkbox" class="menu-btn" id="menu-btn">
+    <label for="menu-btn" class="menu-icon">
+    <span class="nav-icon"></span>
+    </label>
+
+
+        <ul class="menu">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#popular-bundle-pack">Our packages</a></li>
+            <li><a href="#download-app">Our app</a></li>
+            <li><a href="login.html" target="_main">login</a></li>
+        </ul>
+
+        <!--------------------- Right navbar ----------------------->
+
+        <div class="right-nav">
+            <!----------- like ---------->
+            <a href="#" class="like">
+                <i class="fa-regular fa-heart"></i>
+                <span>0</span>
+            </a>
+            <!---------------- cart ------------------->
+            <a href="#" class="Cart" id="cart-btn">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>4</span>
+            </a>
+        </div>
+
+        <div class="shopping-cart">
+            <div class="box-content">
+                <strong>ITEMS:</strong>
+            </div>
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="img3-removebg-preview.png">
+                <div class="content1">
+                    <h3>Tomato</h3>
+                    <span class="price">Rs. 120</span>
+                    <span class="quantity">Qty: 1 KG</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="img2-removebg-preview.png">
+                <div class="content1">
+                    <h3>Cabbage</h3>
+                    <span class="price">Rs. 40</span>
+                    <span class="quantity">Qty: 1 KG</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="img1-removebg-preview.png">
+                <div class="content1">
+                    <h3>Broccoli</h3>
+                    <span class="price">Rs. 50</span>
+                    <span class="quantity">Qty: 1 KG</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="pack5.png">
+                <div class="content1">
+                    <h3>One day pack</h3>
+                    <span class="price">Rs. 299</span>
+                    <span class="quantity">Qty: 1</span>
+                </div>
+            </div>
+            <div class="total"><b>Total:</b> Rs. 509/-</div>
+            <a href="payment.html" target="_main" class="button">Checkout</a>
+        </div>
+    </nav>
+    <!--------------------- nav end -------------------->
+
+    <!------------------ home section------------ -->
+    <section class="home" id="home">
+        <div class="image">
+            <img src="heart veg.jpg" alt="photo">
+        </div>
+        <div class="content">
+            <span>Fresh and Organic</span>
+            <h3>Your daily need products</h3>
+            <button class="btn">Get started</button>
+        </div>
+
+    </section>
+    <!------------------ home section end------------ -->
+
+    <!---------------- home banner section -------------->
+    <section class="banner-container">
+        <div class="banner">
+            <div class="banner-content">
+                <span>Limited offer</span>
+                <h3>Upto 45% Off</h3>
+                <button>Shop Now</button>
+            </div>
+            <div class="banner-img">
+                 <img src="capsi.png">
+            </div>
+        </div>
+        <div class="banner">
+            <div class="banner-content">
+                <span>Special offer</span>
+                <h3>Upto 50% Off</h3>
+                <button>Shop Now</button>
+            </div>
+            <div class="banner-img">
+                 <img src="carrot.png">
+            </div>
+        </div>
+        <div class="banner">
+            <div class="banner-content">
+                <span style="font-size: 1.1rem;">Limited Sales</span>
+                <h3>Upto 75% Off</h3>
+                <button>Shop Now</button>
+            </div>
+            <div class="banner-img">
+                 <img src="broclie1.png" style= padding-right:20px;>
+            </div>
+        </div>
+        
+        
+
+    </section>
+
+
+
+    <!------------------ search banner ----------------->
+
+
+    <section id="search-banner">
+        <img src="bg-1.png" class="bg-1" alt="bg">
+        <img src="bg-2.png" class="bg-2" alt="bg">
+
+        <div class="search-banner-text">
+            <h1>Order your daily Vegies</h1>
+            <strong>#Free delievery</strong>
+
+            <form class="search-box">
+                <i class="fas fa-search"></i>
+                <input type="text" class="search-input" placeholder="Search your daily Vegies" name="search" required>
+                <input type="submit" class="search-btn" value="search">
+            </form>
+        </div>
+
+    </section>
+    <!------------------ search banner end----------------->
+
+    <!-------------- category section --------------->
+
+    <section id="category">
+        <div class="category-heading">
+            <h2>Category</h2>
+            <span>All</span>
+        </div>
+
+        <div class="category-container">
+            <a href="#" class="category-box">
+            <img src="natural2-removebg-preview.png" alt="img">
+            <span>Natural</span>
+            </a>
+
+            <a href="#" class="category-box">
+            <img src="fresh-removebg-preview.png" alt="img">
+            <span>Fresh</span>
+            </a>
+
+            <a href="#" class="category-box">
+            <img src="organic-removebg-preview.png" alt="img">
+            <span>Organic</span>
+            </a>
+
+            <a href="#" class="category-box">
+            <img src="seasonal-removebg-preview.png" alt="img">
+            <span>Seasonal</span>
+            </a>
+           
+        </div>
+
+    </section>
+
+
+    <!------------------ popular product ------------->
+    <section id="popular-product">
+        <div class="product-heading">
+            <h3>Popular product</h3>
+            <span>All</span>
+        </div>
+
+        <div class="product-container">
+            <div class="product-box" id="call1">
+                <img src="tamato.png" alt="tomato">
+                <strong>Tomato</strong>
+                <!-- <span class="quantity">1 KG</span> -->
+                <select id="subjects">
+                    <option value="1">1 KG</option>
+                    <option value="2">5 KG</option>
+                    <option value="3">0.5 KG</option>
+                    <option value="4">0.25 KG</option>
+                </select>
+                <span id="price" class="price"></span>
+
+                <a href="#call1" id="cart-btn" class="alertButton">
+                    <i class="fas fa-shopping-bag"></i>Add to Cart
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box" id="call2" >
+                <img src="cabbage.png" alt="cabbage">
+                <strong>Cabbage</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">Rs. 40</span>
+
+                <a href="#call2" id="cart-btn" class="alertButton">
+                    <i class="fas fa-shopping-bag"></i>Add to Cart
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box" id="call">
+                <img src="broclie.png" alt="broclie">
+                <strong>Broclie</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">Rs. 50</span>
+
+                <a href="#call" id="cart-btn" class="alertButton">
+                    <i  class="fas fa-shopping-bag" id="btn"></i>Add to Cart
+                </a>
+                <a href="#call" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+        
+            
+        </div>
+        <div class="product-container">
+            <div class="product-box" id="call1">
+                <img src="patato.png" alt="potato">
+                <strong>Potato</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">Rs. 30</span>
+
+                <a href="#call1" id="cart-btn" class="alertButton">
+                    <i class="fas fa-shopping-bag"></i>Add to Cart
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box" id="call1">
+                <img src="garlic.png" alt="garlic">
+                <strong>Garlic</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">Rs. 60</span>
+
+                <a href="#call1" id="cart-btn" class="alertButton">
+                    <i class="fas fa-shopping-bag"></i>Add to Cart
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+          
+            <div class="product-box" id="call">
+                <img src="onion.png" alt="Onion">
+                <strong>Onion</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">Rs. 80</span>
+
+                <a href="#call" id="cart-btn" class="alertButton">
+                    <i class="fas fa-shopping-bag"></i>Add to Cart
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+           
+        </div>
+        <div class="product-container">
+            <div class="product-box" id="call2">
+                <img src="capsicum.png" alt="Capsicum">
+                <strong>Capsicum</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">Rs. 40</span>
+
+                <a href="#call2" id="cart-btn" class="alertButton">
+                    <i class="fas fa-shopping-bag"></i>Add to Cart
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box" id="call2">
+                <img src="chili.png" alt="chili">
+                <strong>Chili</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">Rs. 30</span>
+
+                <a href="#call2" id="cart-btn" class="alertButton">
+                    <i class="fas fa-shopping-bag" id="btn"></i>Add to Cart
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box">
+                <img src="peas.png" alt="peas" id="call2">
+                <strong>Peas</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">Rs. 50</span>
+
+                <a href="#call2" id="cart-btn" class="alertButton">
+                    <i class="fas fa-shopping-bag"></i>Add to Cart
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+        </div>
+        
+    </div>
+
+    </section>
+
+    <!----------------- popular bundle pack ------------->
+    <section id="popular-bundle-pack">
+        <div class="product-heading"  id="call3">
+            <h3>Popular Bundle Pack</h3>
+        </div>
+        <div class="product-container">
+            <div class="product-box">
+                <img src="pack1.png" alt="pack1">
+                <strong>Big Pack</strong>
+                <span class="quantity">Lemon, Potato, Tomato +6</span>
+                <span class="price">Rs. 599</span>
+
+                <a href="#call3" id="cart-btn" class="alertButton">
+                    <i class="fas fa-shopping-bag"></i>Add to Cart
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box" id="call3">
+                <img src="pack2.jpg" alt="pack2">
+                <strong>Large Pack</strong>
+                <span class="quantity">Capsicum,Carrot,Tomato +2</span>
+                <span class="price">Rs. 499</span>
+
+                <a href="#call3" id="cart-btn" class="alertButton">
+                    <i class="fas fa-shopping-bag"></i>Add to Cart
+                </a>
+                <a href="#" class="like-btn" class="alertButton">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box" id="call3">
+                <img src="pack4.png" alt="pack3">
+                <strong>Small Pack</strong>
+                <span class="quantity">Cucumber,tomato,potato,chilli</span>
+                <span class="price">Rs. 249</span>
+
+                <a href="#call3" id="cart-btn" class="alertButton">
+                    <i class="fas fa-shopping-bag"></i>Add to Cart
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            
+        </div>
+        <div class="product-container"  id="call4">
+            <div class="product-box">
+                <img src="pack3.png" alt="pack1">
+                <strong>Budget Freindly Pack</strong>
+                <span class="quantity">Carrot,Potato,Spinach and 5+</span>
+                <span class="price">Rs. 399</span>
+
+                <a href="#call4" id="cart-btn" class="alertButton">
+                    <i class="fas fa-shopping-bag"></i>Add to Cart
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box" id="call4">
+                <img src="pack5.png" alt="pack2">
+                <strong>One day Pack</strong>
+                <span class="quantity">Peas,Cauliflower,Potato and +1</span>
+                <span class="price">Rs. 299</span>
+
+                <a href="#call4" id="cart-btn" class="alertButton">
+                    <i class="fas fa-shopping-bag"></i>Add to Cart
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+            <div class="product-box" id="call4">
+                <img src="pack6.png" alt="pack3">
+                <strong>Combo Pack</strong>
+                <span class="quantity">Broclie,Brinjal,Onion and 6+</span>
+                <span class="price">Rs. 449</span>
+
+                <a href="#call4" id="cart-btn" class="alertButton">
+                    <i class="fas fa-shopping-bag"></i>Add to Cart
+                </a>
+                <a href="#" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            
+        </div>
+        
+    </section>
+    <!-------------------- popular-bundle-pack end ------------------->
+
+    <!-------------------- client section ------------------>
+    <section id="clients">
+        <div class="client-heading">
+            <h3>What our client's say</h3>
+        </div>
+        <div class="client-box-container">
+
+            <div class="client-box">
+
+                <div class="client-profile">
+                    <img src="client-1.jpg" alt="client">
+                    <div class="profile-text">
+                        <strong>James Mcavoy</strong>
+                        <span>CEO</span>
+                    </div>
+                </div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, voluptatibus, dolore natus
+                    incidunt a tempora ab voluptas nulla nihil labore aut nostrum ullam dignissimos nemo odio nisi
+                    inventore perspiciatis velit!</p>
+
+            </div>
+            <div class="client-box">
+
+                <div class="client-profile">
+                    <img src="client-2.jpg" alt="client">
+                    <div class="profile-text">
+                        <strong>Adward Mcavoy</strong>
+                        <span>Software Developer</span>
+                    </div>
+                </div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, voluptatibus, dolore natus
+                    incidunt a tempora ab voluptas nulla nihil labore aut nostrum ullam dignissimos nemo odio nisi
+                    inventore perspiciatis velit!</p>
+
+            </div>
+            <div class="client-box">
+
+                <div class="client-profile">
+                    <img src="client-3.jpg" alt="client">
+                    <div class="profile-text">
+                        <strong>Ava Alex</strong>
+                        <span>Marketer</span>
+                    </div>
+                </div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, voluptatibus, dolore natus
+                    incidunt a tempora ab voluptas nulla nihil labore aut nostrum ullam dignissimos nemo odio nisi
+                    inventore perspiciatis velit!</p>
+
+            </div>
+
+
+
+            
+
+        </div>
+    </section>
+
+    <!------------------------- partner logo ----------------->
+    <section id="partner">
+        <div class="partner-heading">
+            <h3>Our Trusted Partner</h3>
+        </div>
+
+        <div class="logo-container">
+            <img src="logo-1.png" alt="logo">
+            <img src="logo-2.png" alt="logo">
+            <img src="logo-3.png" alt="logo">
+            <img src="logo-4.png" alt="logo">
+        </div>
+
+    </section>
+    <!------------------------- partner logo end---------------->
+
+    <!---------- mobile app section---------- -->
+    <section id="download-app">
+        <div class="app-img">
+            <img src="mobile-app.png" alt="app">
+        </div>
+        <div class="download-app-text">
+            <strong>Download App</strong>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor et, laudantium at dignissimos quisquam
+                sit corrupti quod, corporis, tenetur labore pariatur laborum. Repellendus officia nisi possimus iure
+                pariatur culpa itaque.</p>
+
+            <div class="download-btn">
+                <a href="#"><img src="appstore-btn.png" alt="app"></a>
+                <a href="#"><img src="googleplay-btn.png" alt="app"></a>
+            </div>
+        </div>
+
+    </section>
+    <!------------------------- mobile app section end ---------------------->
+    <!-------------- footer section -------------->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <a href="#"><span>e</span>Vegie</a>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-links" style="margin-bottom: 20px;">
+                <strong>Product</strong>
+                <ul>
+                    <li><a href="#">Organic</a></li>
+                    <li><a href="#">Packages</a></li>
+                    <li><a href="#">Popular</a></li>
+                    <li><a href="#">New</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <strong>Extra Links</strong>
+                <ul>
+                    <li><a href="#">My order</a></li>
+                    <li><a href="#">My favourite</a></li>
+                    <li><a href="#">Mw wishlist</a></li>
+                    <li><a href="#">My Account</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-links">
+                <strong>Contact</strong>
+                <ul>
+                    <li><a href="#">Phone : +91 77095 73696</a></li>
+                    <li><a href="#">Email : Sanjeev@gmail.com</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+        
+
+    </footer>
+   
+    <div class="last-footer">
+        <div class="last-footer-content">
+        <span style="font-size: 0.9rem;">Made with</span>
+        <i class="fa-solid fa-heart"></i>
+        <span style="font-size: 0.9rem;">By</span>
+        <a href="#" class="logo1"><span>e</span>Vegie</a>
+        </div>
+        <p>Copyright © 2010-2023 eVegie Company All rights reserved.</p>
+        <select class="select-opt">
+            <option>English</option>
+            <option>Hindi</option>
+            <option>Marathi</option>
+        </select>
+
+
+     </div>
+     <div class="last-footer1">
+        <a href="#">Terms of services</a>
+        <a href="#">General terms and condition</a>
+        <a href="#">Privacy policy</a>
+        <a href="#">Cookies policy</a>
+        <img src="cards.svg">
+     </div>
+</body>
+
+
+<script src="link.js"></script>
+    
+
+</html>
